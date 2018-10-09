@@ -1,0 +1,134 @@
+/* Root styling */
+:root {
+    --dark-grey: #434343;
+    --border-color: #E6EAEA;
+    --submit-button: #49c5b6;
+    --light-grey: #ADADAD;
+    --border-light: rgb(58, 58, 58);
+}
+
+#img-icon {
+    width: 16px;
+    height: 16px;
+}
+
+.md-icon {
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.f-45 {
+    font-size: 45px;
+}
+
+.light-grey {
+    color: var(--light-grey)
+}
+
+.btn-blue {
+    background-color: var(--submit-button);
+}
+
+.c-darkgrey {
+    background-color: var(--dark-grey)
+}
+
+.c-blue {
+    color: var(--submit-button)
+}
+
+.txt-lightgrey {
+    color: var(--light-grey);
+    font-size: 16px;
+}
+
+.letter-space-1 {
+    letter-spacing: 0.1rem;
+}
+
+/* navbar styling */
+
+.nav-border {
+    color: var(--border-light)
+}
+
+.lan {
+    letter-spacing: -0.03rem;
+    text-decoration: underline var(--light-grey);
+}
+
+.nav {
+    background-color: var(--dark-grey);
+    height: 70px;
+}
+
+.title {
+    font-size: 32px !important;
+    left: 50vw;
+}
+
+/* *****  End of Navigation Bars  ***** */
+
+.landing {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.landing-img {
+    width: 100%;
+}
+
+.landing-img-fade {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 2, 0.8)
+}
+
+#landing-overlay {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+}
+
+
+.site-title {
+    font-family: 'Limelight', cursive;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 3px solid;
+    border-radius: 50%;
+}
+
+.border-red {
+    border-color: rgb(228, 25, 25);
+}
+
+.int {
+    font-size: 36px;
+}
+
+.dec {
+    font-size: 16px;
+}
+
+button.md-icon {
+    overflow: hidden;
+}
